@@ -6,7 +6,7 @@ public class Main {
 	public static void main(String[] args) throws FileNotFoundException {
 		// TODO Auto-generated method stub
 		System.out.println("What Project Euler problem would you like to answer?"
-				+ "\nOnly problems 1-9 are available\nEnter 'x' to exit");
+				+ "\nOnly problems 1-10 are available\nEnter 'x' to exit");
 		
 		Scanner input = new Scanner(System.in);
 		String questionNum="0";
@@ -74,9 +74,9 @@ public class Main {
 				break;
 				
 				case "8":
-					System.out.println();
-					ThousandDigit a8 = new ThousandDigit();
-					a8.Digit();
+					System.out.println("DEBUG: Under Construction");
+					//ThousandDigit a8 = new ThousandDigit();
+					//a8.Digit();
 				break;
 				
 				case "9":
@@ -102,6 +102,8 @@ public class Main {
 					System.out.println("Invalid Input");
 				break;
 			}
+			System.out.println("What Project Euler problem would you like to answer next?"
+					+ "\nOnly problems 1-10 are available\nEnter 'x' to exit");
 		}
 		input.close();
 	}
